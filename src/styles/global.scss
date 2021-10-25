@@ -1,0 +1,245 @@
+@font-face {
+  font-family: "Futura";
+  src: local("Futura"), url("../assets/fonts/futura.ttf") format("truetype");
+  font-weight: normal;
+}
+* {
+  text-rendering: optimizeLegibility;
+  // box-shadow: none !important;
+}
+#root {
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Futura, Sans-Serif !important;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+.analyticsIcon {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  padding-right: 10px;
+  object-fit: contain;
+}
+.smIcon {
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+  padding-right: 10px;
+  object-fit: contain;
+}
+.lgIcon {
+  width: 140px;
+  height: 140px;
+  vertical-align: middle;
+  padding-right: 10px;
+  object-fit: contain;
+}
+.block {
+  margin-top: 60px;
+}
+.header {
+  text-align: center;
+  font-size: 48px;
+  padding-top: 15px;
+  font-weight: 700;
+}
+.card {
+  background-color: rgb(50, 52, 56);
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 30px;
+}
+.tab {
+  background-color: rgb(50, 52, 56);
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+.lightTab {
+  background-color: rgba(225, 225, 225, 0.3);
+  overflow: hidden;
+  border-radius: 10px;
+  margin: "0 10px";
+  vertical-align: bottom;
+  padding: 20px 20px;
+}
+.vaultHeader {
+  text-align: left;
+  font-size: 36px;
+  font-weight: 800;
+  margin: 25px auto;
+  margin-top: 5%;
+  max-width: 800px;
+}
+.vaultSubHeader {
+  text-align: left;
+  line-height: 1.2;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 25px auto;
+  max-width: 800px;
+}
+.coloredTitle {
+  color: #e84242;
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: 600;
+}
+.coloredText {
+  color: #e84242;
+}
+.dashboardHeader {
+  font-size: 30px;
+  vertical-align: middle;
+  font-weight: 700;
+}
+.listHeader {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+}
+.listContent {
+  text-align: right;
+  font-size: 22px;
+  font-weight: 600;
+}
+.valueHeader {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  opacity: 0.6;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.value {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #ffffff;
+}
+.price {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.rightValue {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: right;
+}
+
+.tooltip {
+  padding: 0;
+  margin-left: 10px;
+  margin-top: -2px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.labelLink {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.fadeIn3 {
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+.fadeIn7 {
+  -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 7s; /* Firefox < 16 */
+  -ms-animation: fadein 7s; /* Internet Explorer */
+  -o-animation: fadein 7s; /* Opera < 12.1 */
+  animation: fadein 7s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.rightText {
+  float: right;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.speedo-segment {
+  margin: 10px;
+  padding: 10px;
+}
+
+.InfiniteCarouselArrowIcon {
+  border-color: black;
+}
